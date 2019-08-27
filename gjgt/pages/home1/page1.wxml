@@ -1,0 +1,3 @@
+<!--pages/home1/page1.wxml-->
+
+<text>{{last_page}}</text>

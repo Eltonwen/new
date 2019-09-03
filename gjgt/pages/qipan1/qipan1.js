@@ -1,4 +1,5 @@
-// pages/home/home.js
+// pages/qipan1/qipan1.js
+ 
 Page({
 
   /**
@@ -62,13 +63,6 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  goto_page1:function(){
-    wx.navigateTo({
-
-      url: '/pages/setuproom1/setuproom1?id=1',
-
-    })
   }
+  
 })

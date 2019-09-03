@@ -1,10 +1,46 @@
 {
   "pages": [
+    "pages/xinjian1/xinjian1",
+    "pages/qimeng1/qimeng1",
+    "pages/home1/page1",
+    "pages/logs/logs",
     "pages/home/home",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/home1/page1"
+    "pages/chuangjian1/chuangjian1",
+    "pages/qipan1/qipan1"
   ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home1/page1",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "接口"
+      }
+    ]
+  },
+  "tabBar1": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "接口"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
